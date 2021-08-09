@@ -5,13 +5,13 @@ namespace Employee_Wage_Using_Oops_Concepts
 
     public class Employee
     {
-        private int Wage_Per_Hr;
-        private int Employee_Hrs;
-        private int EmpWage;
-        private int Monthly_Wage;
-        private int Count;
-        private int numOfHrsWorked;
-        private int daysWorked;
+        public int Wage_Per_Hr;
+        public int Employee_Hrs;
+        public int EmpWage;
+        public int Monthly_Wage;
+        public int Count;
+        public int numOfHrsWorked;
+        public int daysWorked;
         public void EmployeeDetails()
         {
             Wage_Per_Hr = 20;
