@@ -1,0 +1,13 @@
+C:\Users\HP\source\repos\Employee-Wage-Using-Oops-Concepts\Employee-Wage-Using-Oops-Concepts\bin\Debug\netcoreapp3.1\Employee-Wage-Using-Oops-Concepts.exe
+C:\Users\HP\source\repos\Employee-Wage-Using-Oops-Concepts\Employee-Wage-Using-Oops-Concepts\bin\Debug\netcoreapp3.1\Employee-Wage-Using-Oops-Concepts.deps.json
+C:\Users\HP\source\repos\Employee-Wage-Using-Oops-Concepts\Employee-Wage-Using-Oops-Concepts\bin\Debug\netcoreapp3.1\Employee-Wage-Using-Oops-Concepts.runtimeconfig.json
+C:\Users\HP\source\repos\Employee-Wage-Using-Oops-Concepts\Employee-Wage-Using-Oops-Concepts\bin\Debug\netcoreapp3.1\Employee-Wage-Using-Oops-Concepts.runtimeconfig.dev.json
+C:\Users\HP\source\repos\Employee-Wage-Using-Oops-Concepts\Employee-Wage-Using-Oops-Concepts\bin\Debug\netcoreapp3.1\Employee-Wage-Using-Oops-Concepts.dll
+C:\Users\HP\source\repos\Employee-Wage-Using-Oops-Concepts\Employee-Wage-Using-Oops-Concepts\bin\Debug\netcoreapp3.1\Employee-Wage-Using-Oops-Concepts.pdb
+C:\Users\HP\source\repos\Employee-Wage-Using-Oops-Concepts\Employee-Wage-Using-Oops-Concepts\obj\Debug\netcoreapp3.1\Employee-Wage-Using-Oops-Concepts.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Employee-Wage-Using-Oops-Concepts\Employee-Wage-Using-Oops-Concepts\obj\Debug\netcoreapp3.1\Employee-Wage-Using-Oops-Concepts.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Employee-Wage-Using-Oops-Concepts\Employee-Wage-Using-Oops-Concepts\obj\Debug\netcoreapp3.1\Employee-Wage-Using-Oops-Concepts.AssemblyInfo.cs
+C:\Users\HP\source\repos\Employee-Wage-Using-Oops-Concepts\Employee-Wage-Using-Oops-Concepts\obj\Debug\netcoreapp3.1\Employee-Wage-Using-Oops-Concepts.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Employee-Wage-Using-Oops-Concepts\Employee-Wage-Using-Oops-Concepts\obj\Debug\netcoreapp3.1\Employee-Wage-Using-Oops-Concepts.dll
+C:\Users\HP\source\repos\Employee-Wage-Using-Oops-Concepts\Employee-Wage-Using-Oops-Concepts\obj\Debug\netcoreapp3.1\Employee-Wage-Using-Oops-Concepts.pdb
+C:\Users\HP\source\repos\Employee-Wage-Using-Oops-Concepts\Employee-Wage-Using-Oops-Concepts\obj\Debug\netcoreapp3.1\Employee-Wage-Using-Oops-Concepts.genruntimeconfig.cache
