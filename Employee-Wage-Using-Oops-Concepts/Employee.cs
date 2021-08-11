@@ -13,56 +13,19 @@ namespace Employee_Wage_Using_Oops_Concepts
         public int TotalEmpWage;
         public EmployeeClass(string company, int wagePerHour, int maxHoursPerMonth, int maxWorkingDays)
         {
-            Company = company;
-            WagePerHour = wagePerHour;
-            MaxHoursPerMonth = maxHoursPerMonth;
-            MaxWorkingDays = maxWorkingDays;
+            this.Company = company;
+            this.WagePerHour = wagePerHour;
+            this.MaxHoursPerMonth = maxHoursPerMonth;
+            this.MaxWorkingDays = maxWorkingDays;
         }
-       public void CompanyEmpWage()
-        { 
-            int empHours = 0;
-            int empDailyWage = 0;
-            int workingDays = 0;
-            int workingHrs = 0;
-
-            Random rand = new Random();
-
-            while (workingDays <= MaxWorkingDays && workingHrs <= MaxHoursPerMonth)
-            {
-                int number = rand.Next(0, 3);
-                switch (number)
-                {
-                    case 1:
-                        Console.WriteLine("Employee is present for full-time");
-                        empHours = 8;
-                        workingDays++;
-                        break;
-                    case 2:
-                        Console.WriteLine("Employee is present for part-time");
-                        empHours = 4;
-                        workingDays++;
-                        break;
-                    default:
-                        Console.WriteLine("Employee is absent");
-                        break;
-
-                }
-                empDailyWage = empHours * WagePerHour;
-                TotalEmpWage += empDailyWage;
-                workingHrs += empHours;
-
-            }
-            Console.WriteLine("Company Name:" + Company);
-            Console.WriteLine("Employee Working Hours :" + workingHrs);
-            Console.WriteLine("Employee Wage Per day :" + empDailyWage);
-            Console.WriteLine("Employee Working days in month :" + workingDays);
-            Console.WriteLine("Employee Wage for working days :" + TotalEmpWage);
-
+        public void SetTotalEmpWage(int TotalEmpWage)
+        {
+            this.TotalEmpWage = TotalEmpWage;
         }
 
         public string ToString()
         {
-            return "Total employee wage for " + Company + " is " +TotalEmpWage;
+            return "Total employee wage for " + this.Company + " is " + this.TotalEmpWage;
         }
     }
 }

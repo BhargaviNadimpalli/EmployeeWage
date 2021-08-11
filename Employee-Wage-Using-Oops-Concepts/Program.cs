@@ -6,14 +6,15 @@ namespace Employee_Wage_Using_Oops_Concepts
     
     class Program
     {
-        static void Main(string[] args)
-        {
-            EmployeeClass Tcs = new EmployeeClass("TCS", 77, 30, 150);
-            EmployeeClass Wipro = new EmployeeClass("Wipro", 57, 27, 100);
-            Tcs.CompanyEmpWage();
-            Console.WriteLine(Tcs.ToString());
-            Wipro.CompanyEmpWage();
-            Console.WriteLine(Wipro.ToString());
+        
+            static void Main(string[] args)
+            {
+                EmployeeWage employee = new EmployeeWage();
+                employee.AddCompanyEmpWage("TCS", 20, 22, 121);
+                employee.AddCompanyEmpWage("Wipro", 33, 24, 134);
+                employee.ComputeEmpWage();
+
+
+            }
         }
-    }
 }
