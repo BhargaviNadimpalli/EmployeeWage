@@ -17,7 +17,7 @@ namespace Employee_Wage_Using_Oops_Concepts
         public void AddCompanyEmpWage(string company, int wagePerHour, int maxHoursPerMonth, int maxWorkingDays)
         {
             EmployeeClass companyWage = new EmployeeClass(company, wagePerHour, maxHoursPerMonth, maxWorkingDays);
-
+             this.employeeClassList.AddLast(companyWage);
         }
 
         public void ComputeEmpWage()
