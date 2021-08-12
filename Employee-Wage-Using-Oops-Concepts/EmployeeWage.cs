@@ -4,39 +4,36 @@ using System.Text;
 
 namespace Employee_Wage_Using_Oops_Concepts
 {
-     class EmployeeWage : ComputeWage
+    class EmployeeWage : IComputeWage
     {
-        private int noofcompany = 0;
-        public EmployeeClass[] CompanyEmpWageArray;
+        private LinkedList<EmployeeClass> employeeClassList;
 
         public EmployeeWage()
         {
-            this.CompanyEmpWageArray = new EmployeeClass[5];
+            this.employeeClassList = new LinkedList<EmployeeClass>();
 
 
         }
         public void AddCompanyEmpWage(string company, int wagePerHour, int maxHoursPerMonth, int maxWorkingDays)
         {
-            CompanyEmpWageArray[this.noofcompany] = new EmployeeClass(company, wagePerHour, maxHoursPerMonth, maxWorkingDays);
-            noofcompany++;
+            EmployeeClass companyWage = new EmployeeClass(company, wagePerHour, maxHoursPerMonth, maxWorkingDays);
+
         }
 
         public void ComputeEmpWage()
         {
-            for (int i = 0; i < noofcompany; i++)
+            foreach (EmployeeClass employeeClass in this.employeeClassList)
             {
-                CompanyEmpWageArray[i].SetTotalEmpWage(this.ComputeEmpWage(CompanyEmpWageArray[i]));
-                Console.WriteLine(this.CompanyEmpWageArray[i].ToString());
+                employeeClass.SetTotalEmpWage(this.ComputeEmpWage(employeeClass));
+                Console.WriteLine(employeeClass.ToString());
             }
         }
-        public int ComputeEmpWage(EmployeeClass employeeClass)
+        private int ComputeEmpWage(EmployeeClass employeeClass)
         {
             int empHours = 0;
             int empDailyWage = 0;
             int workingDays = 0;
             int workingHrs = 0;
-
-
 
             Random rand = new Random();
 

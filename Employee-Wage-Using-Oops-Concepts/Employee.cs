@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Employee_Wage_Using_Oops_Concepts
 {
-    public interface ComputeWage
+    public interface IComputeWage
     {
         public void AddCompanyEmpWage(string company, int wagePerHour, int maxHoursPerMonth, int maxWorkingDays);
         public void ComputeEmpWage();
