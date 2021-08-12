@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Employee_Wage_Using_Oops_Concepts
 {
-    class EmployeeWage
+     class EmployeeWage : ComputeWage
     {
         private int noofcompany = 0;
         public EmployeeClass[] CompanyEmpWageArray;
