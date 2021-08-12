@@ -7,17 +7,18 @@ namespace Employee_Wage_Using_Oops_Concepts
     class EmployeeWage : IComputeWage
     {
         private LinkedList<EmployeeClass> employeeClassList;
+        private Dictionary<string, EmployeeClass> companyWage;
 
         public EmployeeWage()
         {
             this.employeeClassList = new LinkedList<EmployeeClass>();
-
+            this.companyWage = new Dictionary<string, EmployeeClass>();
 
         }
         public void AddCompanyEmpWage(string company, int wagePerHour, int maxHoursPerMonth, int maxWorkingDays)
         {
             EmployeeClass companyWage = new EmployeeClass(company, wagePerHour, maxHoursPerMonth, maxWorkingDays);
-
+            this.employeeClassList.AddLast(companyWage);
         }
 
         public void ComputeEmpWage()
@@ -69,6 +70,10 @@ namespace Employee_Wage_Using_Oops_Concepts
             Console.WriteLine("Employee Wage for working days :" + employeeClass.TotalEmpWage);
             Console.WriteLine("Total  wage for " + employeeClass.Company + " is " + employeeClass.TotalEmpWage);
             return workingDays * employeeClass.WagePerHour;
+        }
+        public int getTotalWage(string company)
+        {
+            return this.companyWage[company].TotalEmpWage;
         }
 
     }

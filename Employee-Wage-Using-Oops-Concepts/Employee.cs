@@ -8,7 +8,7 @@ namespace Employee_Wage_Using_Oops_Concepts
     {
         public void AddCompanyEmpWage(string company, int wagePerHour, int maxHoursPerMonth, int maxWorkingDays);
         public void ComputeEmpWage();
-
+        public int getTotalWage(string company);
 
     }
     class EmployeeClass
