@@ -71,10 +71,7 @@ namespace Employee_Wage_Using_Oops_Concepts
             Console.WriteLine("Total  wage for " + employeeClass.Company + " is " + employeeClass.TotalEmpWage);
             return workingDays * employeeClass.WagePerHour;
         }
-        public int getTotalWage(string company)
-        {
-            return this.companyWage[company].TotalEmpWage;
-        }
+        
 
     }
 
